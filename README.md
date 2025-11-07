@@ -1,6 +1,10 @@
-# E-Commerce Landing Page - Web Development Internship Task
+# E-Commerce Landing Page
 
 A modern, responsive e-commerce website with interactive navigation and color-changing hover effects.
+
+## 🌐 Live Demo
+
+**[View Live Demo](https://sonusoni-314.github.io/SCT_WD_1/ecommerce/shop.html)**
 
 ## 🎯 Project Overview
 
@@ -64,33 +68,47 @@ SCT_WD_1/
 
 ## 🚀 How to Run
 
-### Method 1: Direct Browser Open (Quickest)
+### Method 1: View Online (Easiest)
 
-```powershell
-# Navigate to project folder
-cd SCT_WD_1\ecommerce
+Visit the live demo: **[https://sonusoni-314.github.io/SCT_WD_1/ecommerce/shop.html](https://sonusoni-314.github.io/SCT_WD_1/ecommerce/shop.html)**
 
-# Open in default browser
-ii .\shop.html
+### Method 2: Run Locally - Direct Open
+
+1. Clone the repository:
+```bash
+git clone https://github.com/sonusoni-314/SCT_WD_1.git
 ```
 
-### Method 2: Local Server (Recommended)
+2. Navigate to the project folder:
+```bash
+cd SCT_WD_1/ecommerce
+```
 
-```powershell
-# From ecommerce folder
-cd SCT_WD_1\ecommerce
+3. Open `shop.html` in your browser:
+   - **Windows**: Double-click `shop.html` or run `.\shop.html` in PowerShell
+   - **Mac/Linux**: Double-click `shop.html` or run `open shop.html` in Terminal
 
-# Start Python HTTP server
+### Method 3: Run with Local Server (Optional)
+
+1. Clone and navigate to the project:
+```bash
+git clone https://github.com/sonusoni-314/SCT_WD_1.git
+cd SCT_WD_1/ecommerce
+```
+
+2. Start a local server:
+
+**Using Python:**
+```bash
 python -m http.server 8000
 ```
 
-Then open http://localhost:8000/shop.html in your browser.
+**Using Node.js:**
+```bash
+npx http-server -p 8000
+```
 
-### Method 3: VS Code Live Server
-
-1. Install "Live Server" extension in VS Code
-2. Right-click `shop.html`
-3. Select "Open with Live Server"
+3. Open http://localhost:8000/shop.html in your browser
 
 ## 🧪 Testing the Features
 
@@ -155,7 +173,7 @@ Text:              #374151
 ✅ Safari (latest)  
 ✅ Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 🎯 Internship Requirements Met
+## 🎯 Project Features
 
 ### ✅ Fixed Navigation Menu
 - Position: fixed at top
@@ -236,7 +254,7 @@ Adjust transitions in `css/shop-styles.css`:
 
 ## 👨‍💻 Development
 
-Created as part of web development internship task demonstrating:
+This project demonstrates:
 - Modern front-end development skills
 - Responsive design principles
 - Interactive UI/UX design
